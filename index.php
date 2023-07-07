@@ -7,6 +7,8 @@ require_once "controller/colaborador.php";
 require_once "controller/inicio.php";
 require_once "controller/marca.php";
 require_once "controller/categoria.php";
+require_once "controller/año.php";
+require_once "controller/modelo.php";
 
 if (isset($_GET['c'])) {
 
