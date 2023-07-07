@@ -42,6 +42,7 @@ class LoginController
                         $_SESSION['privilegios'] = $login_model->obtener_privilegio($usuarios);
                         $_SESSION['modulos'] = $login_model->obtener_modulos_submodulos_usuario($usuario['id']);
                         header("Location: index.php?c=inicio&a=inicio");
+
                     } else {
                         header("Location: index.php?c=login");
                     }
@@ -51,7 +52,7 @@ class LoginController
                 }
                 break;
             default:
-                header("Location: index.php?c=errores&a=error400");
+                header("Location: index.php?c=login");
                 break;
         }
     }

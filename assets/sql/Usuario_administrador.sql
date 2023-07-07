@@ -9,7 +9,7 @@ INSERT INTO colaborador (id, id_persona, id_sucursal, id_estado_civil, codigo, i
 
 
 INSERT INTO usuario (id, id_persona, id_grupo, usuario, fecha_registro, estado) VALUES
-(1, 2, 4, 'yassira@gmail.com', '2023-07-06 22:56:12', 1);
+(1, 1, 4, 'yassira@gmail.com', '2023-07-06 22:56:12', 1);
 
 INSERT INTO detalle_usuario (id, id_usuario, contraseña_anterior, contraseña_actual, fecha) VALUES
 (1, 1, '', '$2y$10$yjmy7f8A9a.5UbJBcLPY3.LMPc35wEOvvFbHUMwfd83SVwogOB/.K', '2023-07-06');
