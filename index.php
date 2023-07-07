@@ -4,6 +4,7 @@ require_once "core/core.php";
 require_once "config/database.php";
 require_once "controller/login.php";
 require_once "controller/colaborador.php";
+require_once "controller/inicio.php";
 
 if (isset($_GET['c'])) {
 

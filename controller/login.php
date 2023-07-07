@@ -1,6 +1,10 @@
 <?php
 class LoginController
 {
+    public function __construct()
+    {
+        require_once "model/login.php";
+    }
     public function index()
     {
         require_once "view/login.php";

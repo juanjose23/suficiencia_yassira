@@ -59,7 +59,7 @@ class Login_Model
         $id_usuario = $fila['id'];
 
 
-        $sql = "SELECT id AS id_trabajador,foto FROM trabajador WHERE id_persona = $id_persona";
+        $sql = "SELECT id AS id_trabajador,foto FROM colaborador WHERE id_persona = $id_persona";
         $resultado = $this->db->query($sql);
         $fila = $resultado->fetch_assoc();
         $foto = $fila['foto'];

@@ -104,26 +104,17 @@ INSERT INTO permiso (nombre, descripcion)
 VALUES 
        ('Crear', 'Permiso para crear nuevos registros'),
        ('Actualizar', 'Permiso para actualizar registros existentes'),
-       ('Eliminar', 'Permiso para eliminar registros'),
-       ('Anular', 'Permiso para anular registros'),
-       ('Arquear','Permisos para arqueo de caja'),
-       ('Cerrar','Permiso para cerrar caja'),
-      ('Verficar','Verficar usuarios');
+       ('Eliminar', 'Permiso para eliminar registros');
 
 /*Permisos por modulo*/
 INSERT INTO permiso_modulo (id_modulo, id_permiso)
 VALUES
-(2, 1), (2, 2), (2, 3), (2, 4),
-(3, 1), (3, 2), (3, 3),(3, 5),
-(4, 1), (4, 2), (4, 3),(4, 5),
-(5, 1), (5, 2), (5, 3),(5, 5),
+(2, 1), (2, 2), (2, 3),
+(3, 1), (3, 2), (3, 3),
+(4, 1), (4, 2), (4, 3),
+(5, 1), (5, 2), (5, 3),
 (6, 1), (6, 2), (6, 3),
-(7, 6), (7, 7), (7, 8),(7, 5),(7,9),
-(8, 1), (8, 2), (8, 3), (8, 4),
-(9, 1), (9, 2), (9, 3), (9, 4),(9,5),
-(10, 1), (10, 2), (10, 3),(10,4),
-(11, 2), (11, 3), (11, 5),
-(12, 1), (12, 2), (12, 3), (12, 4),
-(13, 1), (13, 2), (13, 3), (13, 4),(13,9),
-(14, 1), (14, 2), (14, 3), (14, 4),
-(15, 1), (15, 2), (15,3), (15, 4);
+(7, 1), (7, 2), (7,3 ),
+(8, 1), (8, 2), (8, 3),
+(9, 1), (9, 2), (9, 3), 
+(10, 1), (10, 2), (10, 3);

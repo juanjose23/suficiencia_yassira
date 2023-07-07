@@ -25,9 +25,9 @@
     <div class="card-body">
       <p class="login-box-msg">Login</p>
 
-      <form action="validar_login" method="post">
+      <form action="index.php?c=login&a=validar_login" method="post">
         <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Correo">
+          <input type="email" name="usuario" class="form-control" placeholder="Correo">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -35,7 +35,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Contraseña">
+          <input type="password" name="contraseña" class="form-control" placeholder="Contraseña">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
