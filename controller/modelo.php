@@ -1,5 +1,5 @@
 <?php 
-class deloController
+class ModeloController
 {
     public function __construct()
     {
@@ -9,8 +9,8 @@ class deloController
     //Instanciar el objeto de la clase categoria
     public function index()
     {
-        $modelo = new modelo_Model();
-        $modelo['modelo']=$modelo->mostrar_modelo();
+        $modelos = new modelo_Model();
+        $modelo['modelo']=$modelos->mostrar_modelo();
         require_once "view/modelo.php";
     }
 

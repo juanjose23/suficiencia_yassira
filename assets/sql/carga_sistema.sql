@@ -19,9 +19,6 @@ VALUES
     (2, 'Supervisores de Ventas', 'Subgrupo de supervisores de ventas', 1),
     (2, 'Supervisores de Operaciones', 'Subgrupo de supervisores de operaciones', 1),
     (3, 'Gestores de Recursos Humanos', 'Subgrupo de gestores de recursos humanos', 1);
-
-
-
 /*Insertar modulos*/
 INSERT INTO modulo (nombre, descripcion, fecha_registro, icono, estado)
 VALUES 
@@ -36,21 +33,17 @@ VALUES
 ('Gestion de Garantias', 'Modulo para la gestión de garantías', NOW(), 'fa fa-wrench', 1),
 ('Ajuste sistema', 'Modulo para los ajustes del sistema', NOW(), 'fa fa-cogs', 1);
 
-
-
 INSERT INTO sub_modulo(id_modulo, nombre, descripcion,enlaces,estado)
 VALUES(1, 'Dasboard', 'Inicio del sistema','index.php?c=inicio',1);
-
 /*Submodulo de gestion de habitaciones*/
 INSERT INTO sub_modulo(id_modulo, nombre, descripcion,enlaces, estado)
 VALUES(2, 'Categoria Vehiculo', 'Categoria de autos','index.php?c=categoria', 1),
       (2, 'Marca', 'Marca de vehiculos','index.php?c=marca', 1),
       (2, 'Año', 'año','index.php?c=año', 1),
       (2, 'Modelo', 'modelo','index.php?c=modelo',1),
-      (2, 'Color', 'Color','index.php?c=color',1),
+      (2, 'Colo   r', 'Color','index.php?c=color',1),
       (2, 'Precio', 'precios','index.php?c=precios',1),
       (2, 'Vehiculos', 'Permite gestionar el estado de los vehiculos','index.php?c=vehiculo', 1);
-
 /* Modulo de servicio*/
 INSERT INTO sub_modulo(id_modulo, nombre, descripcion,enlaces,  estado)
 VALUES(3, 'Categoria Mantenimiento', 'Permite registrar el ingreso de los huéspedes al hotel','index.php?c=categoria_servicio', 1),
@@ -66,7 +59,6 @@ VALUES(4, 'Tipo solicitud', 'Permite generar solicitudes para compras',1),
       (4, 'Compras', 'Permite registrar las compras de productos y materiale', 1),
       (4, 'Recepcion compra','Permite realizar recepcion de compras',1),
       (4, 'Proveedores', 'Permite gestionar los datos de los proveedores ', 1);
-
 /* Modulo de venta*/
 INSERT INTO sub_modulo(id_modulo, nombre, descripcion,enlaces, estado)
 VALUES(5, 'Gestion de cliente', 'Permite gestionar los datos de los clientes','index.php?c=venta&aclientes', 1),
