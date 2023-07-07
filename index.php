@@ -5,6 +5,8 @@ require_once "config/database.php";
 require_once "controller/login.php";
 require_once "controller/colaborador.php";
 require_once "controller/inicio.php";
+require_once "controller/marca.php";
+require_once "controller/categoria.php";
 
 if (isset($_GET['c'])) {
 
