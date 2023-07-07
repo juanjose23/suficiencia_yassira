@@ -43,7 +43,7 @@
                                   
                             </thead>
                             <tbody>
-                                <?php foreach ($categorias['categoria'] as $row) { ?>
+                                <?php foreach ( $modelo['modelo'] as $row) { ?>
                                     <tr>
                                         <td class="table-plus">
                                             <?php echo $row['id']; ?>
@@ -86,14 +86,14 @@
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
 
-            <form id="crear" name="crear" method="POST" action="index.php?c=marca&a=guardar" autocomplete="off" enctype="multipart/form-data">
+            <form id="crear" name="crear" method="POST" action="index.php?c=modelo&a=guardar" autocomplete="off" enctype="multipart/form-data">
                 <div class="card-body">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4 col-sm-12">
                                 <div class="form-group">
-                                    <label style="font: bold 16px Arial, sans-serif;">Siglas</label>
-                                    <input name="siglas" type="text" class="form-control" id="nombre" value="" required>
+                                    <label style="font: bold 16px Arial, sans-serif;">Nombre</label>
+                                    <input name="nombre" type="text" class="form-control" id="nombre" value="" required>
                                 </div>
                             </div>
                             <div class="col-md-4 col-sm-12">
