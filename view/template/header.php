@@ -24,17 +24,16 @@ if (!isset($_SESSION['nombre'])) {
     header('Location: index.php?c=page&a=login');
 }
 
-if ($_SESSION['verificar'] == 4) {
-    header("Location: index.php?c=page");
-} else {
-    if (isset($_SESSION['nombre']) && isset($_SESSION['foto']) && isset($_SESSION['id'])) {
-        // Acceder a las claves 'nombre', 'foto' y 'submodulo' y utilizar sus valores
-        $nombre = $_SESSION['nombre'];
-        $foto = $_SESSION['foto'];
-        $id = $_SESSION['id'];
-        $id_trabajador = $_SESSION['id_trabajador'];
-    }
+
+
+if (isset($_SESSION['nombre']) && isset($_SESSION['foto']) && isset($_SESSION['id'])) {
+    // Acceder a las claves 'nombre', 'foto' y 'submodulo' y utilizar sus valores
+    $nombre = $_SESSION['nombre'];
+    $foto = $_SESSION['foto'];
+    $id = $_SESSION['id'];
+    $id_trabajador = $_SESSION['id_trabajador'];
 }
+
 
 ?>
 <!DOCTYPE html>
