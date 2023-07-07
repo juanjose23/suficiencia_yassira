@@ -47,6 +47,7 @@ class LoginController
                     }
                 } else {
                     header("Location: index.php?c=login");
+                  
                 }
                 break;
             default:

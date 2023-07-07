@@ -21,7 +21,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 
 if (!isset($_SESSION['nombre'])) {
-    header('Location: index.php?c=page&a=login');
+    header('Location: index.php?c=login');
 }
 
 
