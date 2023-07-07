@@ -28,7 +28,7 @@
                     <div class="card-header">
                         <h3 class="card-title">Lista de usuarios para verificar</h3>
                         <div class="align-content-end text-right">
-                        <a class="btn btn-success" href="index.php?c=usuarios&a=asigpermiso">Asignar Privilegios</a>
+                        <a class="btn btn-success" href="index.php?c=usuarios&a=asigprivilegio">Asignar Privilegios</a>
                         </div>
                     </div>
 

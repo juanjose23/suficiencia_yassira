@@ -28,8 +28,7 @@
                     <div class="card-header">
                         <h3 class="card-title">Asignar privilegios</h3>
                         <div class="align-content-end text-right">
-                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#modal-default">Agregar
-                                Trabajador</button>
+                           
                         </div>
                     </div>
 
