@@ -49,11 +49,11 @@
                                             <?php echo $row['id']; ?>
                                         </td>
                                         <td>
-                                            <?php echo $row['nombres']; ?>
+                                            <?php echo $row['nombre']; ?>
                                         </td>
 
                                         <td>
-                                            <?php echo $row['descripciones']; ?>
+                                            <?php echo $row['descripcion']; ?>
                                         </td>
 
 
@@ -93,16 +93,7 @@
                                     <input name="descripcion" type="text" class="form-control" id="apellido" value="" required>
                                 </div>
                             </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="form-group">
-                                    <label style="font: bold 16px Arial, sans-serif;">Estado</label>
-                                    <select name="estado" class="selectpicker form-control" id="estado" value="">
-                                        <option value=0>Seleccionar</option>
-                                        <option value=1>Activo</option>
-                                        <option value=2>Inactivo</option>
-                                    </select>
-                                </div>
-                            </div>
+                            
                         </div>
                         <div class=" btn-list">
                             <button id="guardar" name="guardar" type="submit" class="btn btn-success">Agregar</button>
